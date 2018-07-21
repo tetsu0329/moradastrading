@@ -94,10 +94,10 @@ $hide_admin="";
     </div>
   </div>
 <!-- End of the modal-->  
-<nav style="background:#313232;" class="navbar bg-primary-gradient col-lg-12 col-12 p-0 fixed-top navbar-inverse d-flex flex-row">
-            <div  style="background:rgba(0,0,0,0.3);" class="bg-white text-center navbar-brand-wrapper">
-                <a class="navbar-brand brand-logo" href="dashboard.php"><img height="45" src="images/logo1.png"/></a>
-                <a class="navbar-brand brand-logo-mini" href="dashboard.php"><img height="45" src="images/logo1.png"/></a>
+<nav style="background:#1E1713;" class="navbar bg-primary-gradient col-lg-12 col-12 p-0 fixed-top navbar-inverse d-flex flex-row">
+            <div  style="background:#1E1713;" class="bg-white text-center navbar-brand-wrapper">
+                <a class="navbar-brand brand-logo" href="dashboard.php"><h4>LOGO</h4></a>
+                <a class="navbar-brand brand-logo-mini" href="dashboard.php"></a>
             </div>
             <div class="navbar-menu-wrapper d-flex align-items-center">
                 <button class="navbar-toggler navbar-toggler hidden-md-down align-self-center mr-3" type="button" data-toggle="minimize">
@@ -109,8 +109,7 @@ $hide_admin="";
                 <ul class="navbar-nav ml-lg-auto d-flex align-items-center flex-row">
                     <li class="nav-item">
                         <a class="nav-link profile-pic" href="#"><img class="rounded-circle" src="images/user.png" alt=""></a>
-                    </li>
-                   <li class="nav-item">
+                    </li>er
                         <form method="POST"> <button class="nav-link" name="logoutbtn" style="background:none;border:none;" title="log-out"><i class="fa fa-sign-out"></i></button></form>
                    </li>
                 </ul>
@@ -126,28 +125,28 @@ $hide_admin="";
                 <div class="user-info">
                     <img data-toggle="modal" data-target="#editacc" src="images/user.png" alt="">
                     <p class="name">Wangja Ju</p>
-                    <p class="text text-center text-primary">Manager</p>
-                    <span class="online"></span>
+                    <p class="text text-center designation">Manager</p>
+                   <!--  <span class="online"></span> -->
                 </div>
                     <ul class="nav">
                         <li class="nav-item">
                             <a class="nav-link" href="dashboard.php">
                                 <!-- <i class="fa fa-dashboard"></i> -->
-                                <img src="images/icons/1.png" alt="">
+                                <!-- <img src="images/updated_icon/dashboard.png" alt=""> -->
                                 <span class="menu-title">Dashboard</span>
                             </a>
                         </li>
                         <li class="nav-item" style="display: <?php echo $hide_admin ?>">
                             <a class="nav-link" href="manageadmins.php">
                                 <!-- <i class="fa fa-dashboard"></i> -->
-                                <img src="images/icons/users.png" alt="">
+                                <!-- <img src="images/updated_icon/admin.png" alt=""> -->
                                 <span class="menu-title">Administrators</span>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                                 <!-- <i class="fa fa-address-book"></i> -->
-                                <img src="images/icons/6.png" alt="">
+                                <!-- <img src="images/updated_icon/filemngt.png" alt=""> -->
                                 <span class="menu-title">File Management<i class="fa fa-sort-down"></i></span>
                             </a>
                             <div class="collapse" id="collapseExample">
@@ -184,7 +183,7 @@ $hide_admin="";
                          <li class="nav-item">
                             <a class="nav-link" data-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                                 <!-- <i class="fa fa-address-book"></i> -->
-                                <img src="images/icons/8.png" alt="">
+                                <!-- <img src="images/updated_icon/frontend.png" alt=""> -->
                                 <span class="menu-title">Manage Front End<i class="fa fa-sort-down"></i></span>
                             </a>
                             <div class="collapse" id="collapseExample1">
@@ -195,7 +194,7 @@ $hide_admin="";
                                     </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="contact.php">
+                                        <a class="nav-link" href="contactus.php">
                                       Contact Us
                                     </a>
                                     </li>

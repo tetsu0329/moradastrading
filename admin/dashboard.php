@@ -10,22 +10,24 @@
       <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
       <link rel="stylesheet" href="node_modules/perfect-scrollbar/dist/css/perfect-scrollbar.min.css" />
       <link rel="stylesheet" href="css/style.css"/>
-      <link rel="shortcut icon" href="images/fav.png"/>	
+      <link rel="shortcut icon" href=""/>	
 </head>
 <body>
 <div class="container-scroller">
 <?php include "sidenav.php" ?>
   <div class="content-wrapper">
-                    <h3 class="text-primary mb-4">Dashboard</h3>
+                    <h3 class="page_title text-center mb-4">DASHBOARD</h3>
+                    <hr>
+                    <br>
                       <div class="row xl-6">
                         <div onclick="window.location='users.php';"  class="col-xl-3 col-lg-3 col-md-4 col-sm-6 mb-4">
                             <div class="card">
                                 <div class="card-block">
                                     <div class="clearfix">
-                                        <i class="fa fa-user-o float-right icon-grey-big text-success"></i>
+                                        <i class=" float-right icon-grey-big text-success"></i>
                                     </div>
-                                    <h4 class="card-title font-weight-normal text-success"><?php echo $usercount ?></h4>
-                                    <h6 class="card-subtitle mb-4">Users</h6>
+                                    <h4 class="card-title font-weight-normal"><?php echo $usercount ?></h4>
+                                    <h6 class="card-subtitle mb-4">USERS</h6>
                                     <div class="progress">
                                         <div class="progress-bar bg-success-gadient progress-slim" role="progressbar" style="width: <?php echo $userpercent.'%'; ?>" aria-valuenow="<?php echo $usercount ?>" aria-valuemin="0" aria-valuemax="100000"></div>
                                     </div>
@@ -36,10 +38,10 @@
                             <div class="card">
                                 <div class="card-block">
                                     <div class="clearfix">
-                                        <i class="fa fa-shopping-cart float-right icon-grey-big text-info"></i>
+                                        <i class=" float-right icon-grey-big text-info"></i>
                                     </div>
-                                    <h4 class="card-title font-weight-normal text-info"><?php echo $ordercount ?></h4>
-                                    <h6 class="card-subtitle mb-4">Active Orders</h6>
+                                    <h4 class="card-title font-weight-normal"><?php echo $ordercount ?></h4>
+                                    <h6 class="card-subtitle mb-4">ORDERS</h6>
                                     <div class="progress">
                                         <div class="progress-bar bg-info-gadient progress-slim" role="progressbar" style="width: <?php echo $paidpercent.'%'; ?>" aria-valuenow="<?php echo $paidcount; ?>" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
@@ -50,10 +52,10 @@
                             <div class="card">
                                 <div class="card-block">
                                     <div class="clearfix">
-                                        <i class="fa fa-shopping-cart float-right icon-grey-big text-secondary"></i>
+                                        <i class=" float-right icon-grey-big text-secondary"></i>
                                     </div>
-                                    <h4 class="card-title font-weight-normal text-secondary"><?php echo $inquirycount; ?></h4>
-                                    <h6 class="card-subtitle mb-4">Inquiry</h6>
+                                    <h4 class="card-title font-weight-normal"><?php echo $inquirycount; ?></h4>
+                                    <h6 class="card-subtitle mb-4">INQUIRY</h6>
                                     <div class="progress">
                                         <div class="progress-bar bg-secondary-gadient progress-slim" role="progressbar" style="width: <?php echo $pendingpercent.'%'; ?>" aria-valuenow="<?php echo $pendingcount; ?>" aria-valuemin="0" aria-valuemax="100000"></div>
                                     </div>
@@ -64,10 +66,10 @@
                             <div class="card">
                                 <div class="card-block">
                                     <div class="clearfix">
-                                        <i class="fa fa-cube float-right icon-grey-big text-warning"></i>
+                                        <i class=" float-right icon-grey-big text-warning"></i>
                                     </div>
-                                    <h4 class="card-title font-weight-normal text-warning"><?php echo $productcount?></h4>
-                                    <h6 class="card-subtitle mb-4">Products</h6>
+                                    <h4 class="card-title font-weight-normal"><?php echo $productcount?></h4>
+                                    <h6 class="card-subtitle mb-4">PRODUCTS</h6>
                                     <div class="progress">
                                         <div class="progress-bar bg-warning-gadient progress-slim" role="progressbar" style="width: <?php echo $productpercent.'%'; ?>" aria-valuenow="<?php echo $productcount ?>" aria-valuemin="0" aria-valuemax="100000"></div>
                                     </div>
@@ -75,7 +77,7 @@
                             </div>
                         </div>
                     </div>
-                   <div class="row">
+<!--                    <div class="row">
                         <div class="col-lg-6  mb-4">
                             <div class="card">
                                 <div class="card-block">
@@ -119,7 +121,7 @@
                           <a href="#">Morada</a> &copy; 2018
                       </span>
                     </div>
-                </footer>
+                </footer> -->
             </div>
         </div>   
 </div>
