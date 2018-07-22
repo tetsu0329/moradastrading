@@ -1,0 +1,48 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Century Gothic";
+}
+
+.carousel{
+	margin-top:-20px;
+}
+
+.carousel-inner{
+	max-height: 500px;
+}
+
+.page_title{
+  font-size:30px;
+  color: #1E1713;
+  letter-spacing: 5px;
+}
+
+.category{
+	align-items: center;
+}
+.categ_container{
+	border: 1px solid #e1e1e1;
+	border-radius: 5px;
+	width: 260px;
+	height: auto;
+	padding-top: 15px;
+	float: left;
+	margin: 10px;
+
+}
+.categ_name{
+	text-align: center;
+}
+.categ_img{
+	max-width: 230px;
+	height: auto;
+	border-radius: 5px;
+	padding: 10px;
+}
+.categ_desc{
+	width: 200px;
+	font-size: 14px;
+	color: #8c8c8c;
+	line-height: 2;
+}
